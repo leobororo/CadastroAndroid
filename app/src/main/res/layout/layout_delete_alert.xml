@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.24"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/txtMensagemDelete"
+            android:textSize="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.47"
+            android:layoutDirection="rtl">
+
+            <Button
+                android:id="@+id/btnNao"
+                android:text="Não"
+                style="@style/AlertDialogButtons"/>
+
+            <Button
+                android:id="@+id/btnSim"
+                android:text="Sim"
+                style="@style/AlertDialogButtons"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

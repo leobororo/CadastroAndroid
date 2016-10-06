@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/ItemAluno">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:id="@+id/imagemAluno" />
+
+        <LinearLayout style="@style/DadosAluno">
+            <TextView
+                style="@style/NomeAluno"
+                android:id="@+id/txtNome"/>
+            <TextView
+                style="@style/OutrosAluno"
+                android:id="@+id/txtIdade"/>
+            <TextView
+                style="@style/OutrosAluno"
+                android:id="@+id/txtEndereco"/>
+        </LinearLayout>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical|left"
+            android:src="@drawable/ic_close_circle"
+            android:tint="@android:color/holo_red_light"
+            android:background="@color/white"
+            android:id="@+id/btnRemove"
+            android:backgroundTint="@color/white"/>
+    </LinearLayout>
+
+</RelativeLayout>

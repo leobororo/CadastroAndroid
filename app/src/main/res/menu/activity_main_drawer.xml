@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_lista_servidor"
+            android:icon="@drawable/ic_wifi_black_36px"
+            android:title="@string/carregar_lista_servidor" />
+        <item
+            android:id="@+id/nav_lista_db"
+            android:icon="@drawable/ic_portable_wifi_off_black_36px"
+            android:title="@string/carregar_lista_db_local" />
+        <item
+            android:id="@+id/nav_sincronizar"
+            android:icon="@drawable/ic_sync_black_36px"
+            android:title="@string/copiar_dados_do_servidor" />
+    </group>
+
+</menu>

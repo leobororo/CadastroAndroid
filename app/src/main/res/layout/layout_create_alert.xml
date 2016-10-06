@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.24"
+        android:layout_marginTop="10dp"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/txtNome"
+            android:text="@string/nome"
+            style="@style/textoFormulario"/>
+
+        <EditText
+            android:id="@+id/edtNome"
+            android:inputType="text"
+            style="@style/entradaFormulario"/>
+
+        <TextView
+            android:id="@+id/txtIdade"
+            android:text="@string/idade"
+            style="@style/textoFormulario"/>
+
+        <EditText
+            android:id="@+id/edtIdade"
+            android:inputType="number"
+            style="@style/entradaFormulario" />
+
+        <TextView
+            android:id="@+id/txtFoto"
+            android:text="@string/foto"
+            style="@style/textoFormulario"/>
+
+        <EditText
+            android:id="@+id/edtFoto"
+            style="@style/entradaFormulario" />
+
+        <TextView
+            android:id="@+id/txtTelefone"
+            android:text="@string/telefone"
+            style="@style/textoFormulario"/>
+
+        <EditText
+            android:id="@+id/edtTelefone"
+            android:inputType="number"
+            style="@style/entradaFormulario" />
+
+        <TextView
+            android:id="@+id/txtEndereco"
+            android:text="@string/endereco"
+            style="@style/textoFormulario"/>
+
+        <EditText
+            android:id="@+id/edtEndereco"
+            style="@style/entradaFormulario" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layoutDirection="rtl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.47"
+            android:layout_marginRight="10dp">
+
+
+            <Button
+                android:id="@+id/btnCancelar"
+                android:text="@string/cancelar"
+                style="@style/AlertDialogButtons"/>
+
+            <Button
+                android:id="@+id/btnSalvar"
+                android:text="@string/salvar"
+                style="@style/AlertDialogButtons"/>
+
+            <Button
+                android:id="@+id/btnGerar"
+                android:text="@string/preencher"
+                style="@style/AlertDialogButtons"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

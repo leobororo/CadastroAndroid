@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Projeto Aluno</string>
+    <string name="app_name_online">Projeto Aluno - Online</string>
+    <string name="app_name_offline">Projeto Aluno - Offline</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Preferências</string>
+
+    <string name="nome">Nome</string>
+    <string name="idade">Idade</string>
+    <string name="foto">Foto</string>
+    <string name="telefone">Telefone</string>
+    <string name="endereco">Endereço</string>
+    <string name="carregar_lista_servidor">Dados online (WebService)</string>
+    <string name="carregar_lista_db_local">Dados offline (BD local)</string>
+    <string name="copiar_dados_do_servidor">Copiar dados do WebService</string>
+    <string name="deseja_carregar_dados">Deseja carregar dados ao abrir a aplicação?</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="salvar">Salvar</string>
+    <string name="preencher">Preencher</string>
+    <string name="sim">Sim</string>
+    <string name="nao">Não</string>
+    <string name="ok">Ok</string>
+    <string name="notificacao">Dados copiados do serviço REST com sucesso!</string>
+</resources>
